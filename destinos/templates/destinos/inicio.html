@@ -16,9 +16,15 @@
                 Agencia de Viajes
             </a>
 
-            <a class="btn btn-light" href="{% url 'lista_destinos' %}">
-                Ver destinos
-            </a>
+            <div>
+    <a class="btn btn-light" href="{% url 'lista_destinos' %}">
+        Ver destinos
+    </a>
+
+    <a class="btn btn-danger" href="{% url 'logout' %}">
+        Cerrar sesión
+    </a>
+</div>
         </div>
     </nav>
 
